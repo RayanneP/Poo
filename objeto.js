@@ -5,6 +5,7 @@
 //Representação de algo do mundo real
 //3-Pilares:
 //Abstração, encapsulamento, herança e polimorfismo.
+//Exemplo em js
 
 //criando um objeto de aluno
 const aluno = {
@@ -16,3 +17,5 @@ const aluno = {
 };
 console.log(aluno.nome);
 aluno.estudar();
+
+
