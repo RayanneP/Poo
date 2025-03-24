@@ -23,7 +23,7 @@ class Aluno extends Pessoa {
     }
     
     public function falar() {
-        return "Eu sou o aluno {$this->nome} e estou aprendendo!";
+        return "Eu sou o aluno(a) {$this->nome} e estou aprendendo!";
     }
     
     public function getNota() {
@@ -40,18 +40,18 @@ class Professor extends Pessoa {
     }
     
     public function falar() {
-        return "Eu sou o professor {$this->nome} e ensino {$this->disciplina}.";
+        return "Eu sou o professor(a) {$this->nome} e ensino {$this->disciplina}.";
     }
 }
 
 $alunos = [
-    new Aluno("Carlos", 16, 8.5),
-    new Aluno("Mariana", 17, 9.0)
+    new Aluno("Ray", 16, 8.5),
+    new Aluno("Zani", 17, 9.0)
 ];
 
 $professores = [
-    new Professor("José", 40, "Matemática"),
-    new Professor("Ana", 35, "Português")
+    new Professor("Raul", 40, "Matemática"),
+    new Professor("Nadja", 35, "Português")
 ];
 
 $pessoas = array_merge($alunos, $professores);
